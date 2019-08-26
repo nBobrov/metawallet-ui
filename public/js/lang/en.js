@@ -118,6 +118,13 @@ window.appLang = {
     "auth.placeholder.password": "Password",
     "auth.link.resetpassword": " Forgot password?",
     "auth.error.usernotfound": "User not found",
+    
+    // CreateAccountView
+    
+    "createaccountview.title": "Create Account",
+    "createaccountview.login": "E-mail",
+    "createaccountview.password": "Password",
+    "createaccountview.password2": "Confirm Password",
 
     // ResetPasswordView
 
@@ -126,6 +133,8 @@ window.appLang = {
     // TermsView
 
     "termsview.needagree": "Please read and agree with terms and conditions to continue",
+    "termsview.title": "Terms of Services",
+    "termsview.agree": "I agree to the<br>Terms of Services",
 
     // CreateAccountView
 
@@ -151,6 +160,7 @@ window.appLang = {
     // WalletsView
 
     "walletsview.tab.wallets": "Wallets",
+    "walletsview.tab.wallets": "Wallet",
     "walletsview.tab.latesttransactions": "Latest Transactions",
     "walletsview.button.importpk": "Import PK",
     "walletsview.button.editwallet": "Edit Wallet",
@@ -159,9 +169,14 @@ window.appLang = {
     "walletsview.button.copyaddress": "Copy Address",
     "walletsview.button.showqr": "Show QR",
     "walletsview.button.savepk": "Save PK",
+    "walletsview.button.forginginfo": "Forging Info",
     "walletsview.button.transactions": "Transactions",
+    "walletsview.tab.walletforginginfo": "Wallet Forging Info",
     "walletsview.button.delegations": "Delegations",
-    
+    "walletsview.stat.passiveforging": "Passive Forging",
+    "walletsview.stat.rewardshares": "Reward shares: ",
+    "walletsview.stat.activeforging": "Active Forging",
+    "walletsview.stat.tickets": "Tickets: ",
 
     // WalletView
 
@@ -379,6 +394,22 @@ window.appLang = {
     "nodeview.button.moreinfo": "More Info",
     "nodeview.button.undelegate": "Undelegate",
 
+   // SupportView
+    "supportview.title": "#MetaWallet Support",
+    "supportview.software.info": "Software information",
+    "supportview.software.appversion": "App version:",
+    "supportview.software.uiversion": "UI version:",
+    "supportview.sendlogs": "send logs to support team",
+    "supportview.hint": "Your request has been successfully sent to support team.<br>Requests are processed within 24 hours on the average.<br><br>If you have any questions, please don’t hesitate to contact us: ",
+    "supportview.disclaimer.title": "Public information",
+    "supportview.disclaimer.subtitle": "This is the first public release of #MetaGate.",
+    "supportview.disclaimer.text": "We know it’s not perfect, but we focus on making it the best browser for decentralized applications built on #MetaHash platform and other chains and we want to make it the best cryptocurrency wallet for #MetaHash Coins, Tokens and other currencies.",
+    "supportview.linkmetagete.title": "Visit #MetaGate ",
+    "supportview.linkmetagete.text": "download page",
+    "supportview.linkgithub.title": "All versions and source code ",
+    "supportview.linkgithub.text": "on GitHub",
+    "supportview.linkmetahash.title": "#MetaGate is a project by ",
+    "supportview.linkmetahash.text": "metahash.org",
 };
 
 /**
