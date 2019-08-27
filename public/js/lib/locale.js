@@ -7,7 +7,7 @@
 function __ (str, params) {
     str = window.appLang && window.appLang[str] ? window.appLang[str] : str;
 
-    if (params) {
+    if (params) {a
         for (let code in params) {
             if (!Object.prototype.hasOwnProperty.call(params, code)) {
                 continue;
@@ -23,9 +23,9 @@ function __ (str, params) {
  * Replace placeholders with localized strings
  */
 function onLocaleLoaded () {
-    document.body.querySelectorAll("lang[name], input[placeholder]").forEach(function ( /** @type {HTMLElement} */ element) {
-        if (element.placeholder) {
-            element.placeholder = __(element.getAttribute("placeholder"));
+    document.body.querySelectorAll("lang[name], input[langplaceholder]").forEach(function ( /** @type {HTMLElement} */ element) {
+        if (element.getAttribute("langplaceholder")) {
+            element.placeholder = __(element.getAttribute("langplaceholder"));
         }
         else {
             element.innerHTML = __(element.getAttribute("name"));
