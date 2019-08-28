@@ -1,53 +1,53 @@
 /**
- * English locale
+ * Русская локализация
  * @type {Object<string, string>}
  */
 window.appLang = {
 
     // errors
 
-    "error.error": "Error",
-    "error.unknown": "Unknown error",
-    "error.connection": "Connection problem",
-    "error.connection.offline": "Offline mode",
-    "error.connection.online": "Online mode",
-    "error.notavailable": "Not available in current version",
-    "error.availableonlyinmetagate": "Available only in desktop MetaGate",
-    "error.unknown.domain": "Unknown domain",
-    "error.emptyfields": "Fill in all required fields",
-    "error.wrongqrcode": "No data found in scanned QR code",
-    "error.wrongpassword": "Wrong password",
-    "error.wrongpasscode": "Wrong passcode",
-    "error.wrongfaceid": "Authentication error",
-    "error.passwordsdonotmatch": "Passwords do not match",
-    "error.passwordshort": "New password too simple. Minimum length: ",
-    "error.notenoughfunds": "Not enough funds",
-    "error.pknotfound": "Private key not found on the device",
-    "error.wrongname": "Wrong name",
+    "error.error": "Ошибка",
+    "error.unknown": "Неизвестная ошибка",
+    "error.connection": "Ошибка соединения",
+    "error.connection.offline": "Автономный режим",
+    "error.connection.online": "Онлайн режим",
+    "error.notavailable": "Недоступно в текущей версии",
+    "error.availableonlyinmetagate": "Доступно только в настольном MetaGate",
+    "error.unknown.domain": "Неизвестный домен",
+    "error.emptyfields": "Заполните все обязательные поля",
+    "error.wrongqrcode": "В отсканированном QR-коде не найдены данные",
+    "error.wrongpassword": "Неправильный пароль",
+    "error.wrongpasscode": "Неправильный код-пароль",
+    "error.wrongfaceid": "Ошибка аутентификации",
+    "error.passwordsdonotmatch": "Пароли не совпадают",
+    "error.passwordshort": "Новый пароль слишком короткий. Минимальная длина:",
+    "error.notenoughfunds": "Недостаточно средств",
+    "error.pknotfound": "Закрытый ключ не найден на устройстве",
+    "error.wrongname": "Неправильное имя",
 
     // success
 
-    "success.success": "Success",
-    "success.imported": "Import successful",
+    "success.success": "Успешно",
+    "success.imported": "Импорт выполнен успешно",
 
     // common
 
-    "common.version": "Interface ver. " + VERSION + "." + VERSION_BUILD + ". Application ver. " + VERSION_APP, // + metawallet.env.appVersion + "." + metawallet.env.build,
-    "common.copyright": "Copyright © 2017-2019 #MetaHash.  All Rights Reserved",
+    "common.version": "Версия интерфейса: " + VERSION + "." + VERSION_BUILD + ". Версия приложения: " + VERSION_APP, // + metawallet.env.appVersion + "." + metawallet.env.build,
+    "common.copyright": "© 2017-2019 #MetaHash.  Все права защищены",
 
-    "common.enabled": "Enabled",
-    "common.disabled": "Disabled",
-    "common.activated": "Activated",
-    "common.copy": "Copy",
-    "common.copied": "Copied",
-    "common.saved": "Saved",
+    "common.enabled": "Включено",
+    "common.disabled": "Отключено",
+    "common.activated": "Активировано",
+    "common.copy": "Копировать",
+    "common.copied": "Скопировано",
+    "common.saved": "Сохранено",
 
     "common.ok": "OK",
-    "common.cancel": "Cancel",
-    "common.yes": "Yes",
-    "common.no": "No",
+    "common.cancel": "Отмена",
+    "common.yes": "Да",
+    "common.no": "Нет",
 
-    "common.pleasewait": "Action in progress...",
+    "common.pleasewait": "Выполняется...",
 
     "currency.tmh": "TMH",
     "currency.btc": "BTC",
@@ -55,398 +55,408 @@ window.appLang = {
     "currency.mhc": "MHC",
     "currency.usd": "USD",
 
-    "action.continue": "Continue",
+    "action.continue": "Далее",
 
     // Transaction
 
-    "transaction.metahash.name.1": "Approve",
-    "transaction.metahash.name.20": "Transfer to address",
-    "transaction.metahash.name.101": "Wallet reward",
-    "transaction.metahash.name.102": "Node reward",
-    "transaction.metahash.name.103": "Coin reward",
-    "transaction.metahash.name.104": "Random reward",
-    "transaction.metahash.name.forging": "Start Forging",
-    "transaction.metahash.name.forging.active": "Start Active Forging",
-    "transaction.metahash.name.forging.stop": "Stop Forging",
+    "transaction.metahash.name.1": "Подтвердить",
+    "transaction.metahash.name.20": "Перевод",
+    "transaction.metahash.name.101": "Фиксированная награда",
+    "transaction.metahash.name.102": "Награда за ноду",
+    "transaction.metahash.name.103": "Награда за делегирование",
+    "transaction.metahash.name.104": "Рандомная награда",
+    "transaction.metahash.name.forging": "Начать форджинг",
+    "transaction.metahash.name.forging.active": "Начать активный форджинг",
+    "transaction.metahash.name.forging.stop": "Остановить форджинг",
 
     // System wallets
     "wallets.metahash.name.0x666174686572206f662077616c6c65747320666f7267696e67": "#MetaForging",
 
     // MenuView
 
-    "menu.home": "Home",
-    "menu.apps": "Apps",
-    "menu.settings": "Settings",
-    "menu.support": "Support",
-    "menu.logout": "Log out",
-    "menu.coindelegation": "Coin Delegation",
+    "menu.home": "Главная",
+    "menu.apps": "Приложения",
+    "menu.settings": "Настройки",
+    "menu.support": "Поддержка",
+    "menu.logout": "Выход",
+    "menu.coindelegation": "Делегирование",
 
     // PasscodeAlertView
 
-    "passcodemodalview.title": "Enter Passcode",
-    "passcodemodalview.title.new": "Enter New Passcode",
-    "passcodemodalview.title.repeat": "Repeat New Passcode",
-    "passcodemodalview.subtitle": "or use Face ID / Touch ID",
+    "passcodemodalview.title": "Введите пароль",
+    "passcodemodalview.title.new": "Введите новый пароль",
+    "passcodemodalview.title.repeat": "Повторите новый пароль",
+    "passcodemodalview.subtitle": "или используйте Face ID / Touch ID",
 
-    "settings.passcode.changed": "Passcode changed",
-    "settings.passcode.turnedon": "Passcode turned on",
-    "settings.passcode.turnedoff": "Passcode turned off",
+    "settings.passcode.changed": "Код-пароль изменен",
+    "settings.passcode.turnedon": "Код-пароль включен",
+    "settings.passcode.turnedoff": "Код-пароль выключен",
 
     // LoaderView
 
-    "loaderview.message.connected": "Connected!",
-    "loaderview.message.connecting": "Connecting...",
+    "loaderview.message.connected": "Подключено!",
+    "loaderview.message.connecting": "Соединение...",
 
-    "loaderview.tips.header": "TIP ",
-    "loaderview.tips.tip1": "Remember to keep the password yourself!",
-    "loaderview.tips.tip2": "We never save your password anywhere.",
-    "loaderview.tips.tip3": "Please keep your keys safely. Keep in mind that if you lose them, your keys cannot be recovered.",
-    "loaderview.tips.tip4": "Don\u2019t delete the app in order not to lose all of its data.",
-    "loaderview.tips.tip5": "Please note: the confirmation of Ethereum/Bitcoin transactions can take a long time.",
-    "loaderview.tips.tip6": "You may create unlimited number of wallets.",
-    "loaderview.tips.tip7": "You can select the preferred language in the menu.",
-    "loaderview.tips.tip8": "You can import existing #MetaHash wallets using QR code.",
-    "loaderview.tips.tip9": "Please keep the key password safely. If you lose it, you will not be able to manage your money. Make sure  you will not forget it.",
-    "loaderview.tips.tip10": "We never save your password anywhere.",
+    "loaderview.tips.header": "Советы и подсказки",
+    "loaderview.tips.tip1": "Не забудьте сохранить пароль!",
+    "loaderview.tips.tip2": "Мы не храним ваши пароли.",
+    "loaderview.tips.tip3": "Надежно храните свои ключи. При утере восстановить их будет невозможно.",
+    "loaderview.tips.tip4": "Не удаляйте приложение MetaWallet, чтобы не потерять все свои данные.",
+    "loaderview.tips.tip5": "Обращаем внимание, что подтверждение транзакций Ethereum и Bitcoin может занимать много времени.",
+    "loaderview.tips.tip6": "Вы можете создать неограниченное количество кошельков.",
+    "loaderview.tips.tip7": "Вы можете изменить язык интерфейса приложения в настройках.",
+    "loaderview.tips.tip8": "Вы можете импортировать кошельки #MetaHash с помощью QR-кода.",
+    "loaderview.tips.tip9": "Надежно храните свой пароль. Если вы его потеряете, то вы не сможете управлять своими средствами.",
+    "loaderview.tips.tip10": "Мы не храним ваши пароли.",
 
     // AuthView
 
-    "auth.title.welcome": "Welcome back",
-    "auth.button.login": "Login",
-    "auth.button.createaccount": "Create account",
+    "auth.title.welcome": "Здравствуйте",
+    "auth.button.login": "Войти",
+    "auth.button.createaccount": "Создать учетную запись",
     "auth.placeholder.login": "E-mail",
-    "auth.placeholder.password": "Password",
-    "auth.link.resetpassword": " Forgot password?",
-    "auth.error.usernotfound": "User not found",
+    "auth.placeholder.password": "Пароль",
+    "auth.link.resetpassword": "Забыли пароль?",
+    "auth.error.usernotfound": "Пользователь не найден",
 
     // ResetPasswordView
 
-    "resetpassword.ok": "Password reset link has been sent to your e-mail address",
+    "resetpassword.ok": "На ваш e-mail отправлена ссылка для сброса пароля",
 
     // TermsView
 
-    "termsview.needagree": "Please read and agree with terms and conditions to continue",
-    "termsview.title": "Terms of Services",
-    "termsview.agree": "I agree to the<br>Terms of Services",
-
+    "termsview.needagree": "Прочитайте и согласитесь с условиями, чтобы продолжить",
+    "termsview.title": "Условиями предоставления услуг",
+    "termsview.agree": "Я согласен с условиями<br>предоставления услуг",
 
     // CreateAccountView
 
-    "register.error.emailexists": "Account with this e-mail address already exists",
-    "createaccountview.title": "Create Account",
+    "register.error.emailexists": "Учетная запись с этим e-mail уже существует",
+    "createaccountview.title": "Создание учетной записи",
     "createaccountview.login": "E-mail",
-    "createaccountview.password": "Password",
-    "createaccountview.password2": "Confirm Password",
+    "createaccountview.password": "Пароль",
+    "createaccountview.password2": "Подтвердите пароль",
 
     // CurrenciesView
 
-    "wallets.settings.base.period.day": "24H",
-    "wallets.settings.base.period.week": "7 DAYS",
-    "wallets.settings.base.period.month": "1 MONTH",
+    "wallets.settings.base.period.day": "24 часа",
+    "wallets.settings.base.period.week": "7 дней",
+    "wallets.settings.base.period.month": "1 месяц",
     "wallets.settings.base.currency.1": "TMH",
     "wallets.settings.base.currency.2": "BTC",
     "wallets.settings.base.currency.3": "ETH",
     "wallets.settings.base.currency.4": "MHC",
     "wallets.settings.base.currency.1000": "USD",
 
-    "currenciesview.totalassetsvalue": "Total Assets Value",
-    "currenciesview.tab.currencies": "Currencies",
-    "currenciesview.tab.wallets": "Recent Wallets",
-    "currenciesview.card.wallets": "<b><!--XX--></b> wallets",
-    "currenciesview.card.currencyrate": "Currency rate",
+    "currenciesview.totalassetsvalue": "Доступный баланс",
+    "currenciesview.tab.currencies": "Валюты",
+    "currenciesview.tab.wallets": "Недавние кошельки",
+    "currenciesview.card.wallets": "Кошельков: <b><!--XX--></b>",
+    "currenciesview.card.currencyrate": "Курс",
 
     // WalletsView
 
-    "walletsview.tab.wallets": "Wallets",
-    "walletsview.tab.wallet": "Wallet",
-    "walletsview.tab.latesttransactions": "Latest Transactions",
-    "walletsview.button.importpk": "Import PK",
-    "walletsview.button.editwallet": "Edit Wallet",
-    "walletsview.button.transfer": "Transfer",
-    "walletsview.button.forging": "Forging",
-    "walletsview.button.copyaddress": "Copy Address",
-    "walletsview.button.showqr": "Show QR",
-    "walletsview.button.savepk": "Save PK",
-    "walletsview.button.transactions": "Transactions",
-    "walletsview.button.delegations": "Delegations",
-    "walletsview.walletdelegations": "Wallet Delegations",
-    
+    "walletsview.tab.wallets": "Кошельки",
+    "walletsview.tab.wallet": "Кошелек",
+    "walletsview.tab.latesttransactions": "История операций",
+    "walletsview.button.importpk": "Импортировать ключ",
+    "walletsview.button.editwallet": "Редактировать",
+    "walletsview.button.transfer": "Перевод",
+    "walletsview.button.forging": "Форжинг",
+    "walletsview.button.copyaddress": "Копировать&nbsp;адрес",
+    "walletsview.button.showqr": "Показать QR-код",
+    "walletsview.button.savepk": "Созранить закрытый ключ",
+    "walletsview.button.transactions": "Операции",
+    "walletsview.button.delegations": "Делегирование",
+    "walletsview.walletdelegations": "Делегирование",
+    "walletsview.notransactions.title": "Операции отсутствуют",
+    "walletsview.notransactions.text": "Операций по текущему кошельку не было",
+    "walletsview.nodelegations.title": "Делегирования отсутствуют",
+    "walletsview.nodelegations.text": "Делегирований по текущему кошельку не было",
 
     // WalletView
 
-    "createwalletview.navtitle": "Add #MHC wallet",
-    "createwalletview.title": "Create new wallet",
-    "createwalletview.button.add": "Add wallet",
-    "createwalletview.button.addtip": "Create new or import from QR code",
-    "createwalletview.placeholder.walletname": "Wallet Name",
-    "createwalletview.placeholder.walletpassword": "Wallet Password",
-    "createwalletview.button.generate": "Generate",
-    "createwalletview.button.copy": "Copy",
-    "createwalletview.button.scanqr": "Scan Qr code",
-    "createwalletview.button.openfileqr": "Open file with qr code",
+    "createwalletview.navtitle": "Добавить #MHC кошелёк",
+    "createwalletview.title": "Создать кошелёк",
+    "createwalletview.button.add": "Добавить кошелёк",
+    "createwalletview.button.addtip": "Добавить новый или импортировать из QR-кода",
+    "createwalletview.placeholder.walletname": "Название кошелька",
+    "createwalletview.placeholder.walletpassword": "Пароль для кошелька",
+    "createwalletview.button.generate": "Генерировать",
+    "createwalletview.button.copy": "Копировать",
+    "createwalletview.button.scanqr": "Отсканировать QR-код",
+    "createwalletview.button.openfileqr": "Открыть файл с QR-кодом",
+    "createwalletview.alert.added": "#MHC кошелек добавлен",
+    "createwalletview.alert.address": "Адрес",
+    "createwalletview.alert.password": "Пароль",
+    "createwalletview.alert.savepkqrcode": "Сохранить QR-код с закрытым ключем",
+    "createwalletview.alert.savepkfile": "Сохранить файл закрытого ключа",
 
     // EditWalletView
 
-    "editwalletview.title": "Edit Wallet",
-    "editwalletview.tip": "You can rename or delete wallet.",
-    "editwalletview.walletname": "Wallet name",
-    "editwalletview.button.savechanges": "Save changes",
-    "editwalletview.button.deletewallet": "Delete wallet",
+    "editwalletview.title": "Редактирование кошелька",
+    "editwalletview.tip": "Вы можете переименовать или удалить кошелек",
+    "editwalletview.walletname": "Наименование кошелька",
+    "editwalletview.button.savechanges": "Сохранить",
+    "editwalletview.button.deletewallet": "Удалить кошелек",
 
     // TransferView
 
-    "transferview.error.nodesoffline": "There are no nodes online now",
-    "transferview.error.notaccepted": "Transaction was not accepted",
+    "transferview.error.nodesoffline": "На текущий момент в сети нет активных нод",
+    "transferview.error.notaccepted": "Тразакция не принята",
 
     // TransactionView
 
-    "transactionview.title": "transaction information",
-    "transactionview.repeattransfer": "Repeat Transfer",
-    "transactionview.operation.type": "Operation Type",
-    "transactionview.operation.datetime": "Date and Time",
-    "transactionview.operation.from": "From Wallet",
-    "transactionview.operation.to": "Recipient",
-    "transactionview.operation.amount": "Transfer Amount",
-    "transactionview.operation.status": "Status",
-    "transactionview.operation.data": "Data",
-    "transactionview.status.0": "Unknown",
-    "transactionview.status.10": "In Progress",
-    "transactionview.status.20": "Done",
-    "transactionview.status.40": "Not Accepted",
-    "transactionview.button.copyhash": "Copy<br/>Hash",
-    "transactionview.button.checkinfo": "Check<br/>Info",
-    "transactionview.button.repeattrans": "Repeat<br/>Trans.",
+    "transactionview.title": "Информация об операции",
+    "transactionview.repeattransfer": "Повторить перевод",
+    "transactionview.operation.type": "Тип операции",
+    "transactionview.operation.datetime": "Дата и время",
+    "transactionview.operation.from": "Отправитель",
+    "transactionview.operation.to": "Получатель",
+    "transactionview.operation.amount": "Сумма операции",
+    "transactionview.operation.status": "Статус операции",
+    "transactionview.operation.data": "Данные",
+    "transactionview.status.0": "Статус не известен",
+    "transactionview.status.10": "В процессе",
+    "transactionview.status.20": "Выполнена",
+    "transactionview.status.40": "Не принята",
+    "transactionview.button.copyhash": "Копировать<br/>хэш",
+    "transactionview.button.checkinfo": "Детальная<br/>информация",
+    "transactionview.button.repeattrans": "Повторить<br/>операцию",
 
     // AppsView
 
-    "appsview.action.get": "Get App",
-    "appsview.action.open": "Open App",
+    "appsview.action.get": "Загрузить приложение",
+    "appsview.action.open": "Открыть приложение",
     "appsview.title": "#MetaApps",
-    "appsview.subtitle": "Collection of Apps, based on<br>blockchain technology",
-    "appsview.search.dapps": "Search DApps",
+    "appsview.subtitle": "Приложения, основанные на технологии блокчейн",
+    "appsview.search.dapps": "Поиск приложений",
 
     // SettingsView
-    
-    "settings.title": "Settings",
 
-    "settings.menu.locale": "Locale",
-    "settings.menu.wallets": "Wallets settings",
-    "settings.menu.security": "Security",
-    "settings.menu.password": "Account password",
-    "settings.menu.passcode": "Passcode",
-    "settings.menu.account": "Account settings",
-    "settings.menu.deleteaccount": "Delete Account",
-    "settings.menu.system": "System",
-    "settings.menu.cacheclear": "Clear cache",
-    "settings.menu.logout": "Log out",
-    
-    "settings.cache.cleaned": "Cache cleaned",
-    
+    "settings.title": "Настройки",
+
+    "settings.menu.locale": "Язык",
+    "settings.menu.wallets": "Кошельки",
+    "settings.menu.security": "Безопасность",
+    "settings.menu.password": "Пароль",
+    "settings.menu.passcode": "Код-пароль",
+    "settings.menu.account": "Настройки учетной записи",
+    "settings.menu.deleteaccount": "Удалить учетную запись",
+    "settings.menu.system": "Системные",
+    "settings.menu.cacheclear": "Очистить кэш",
+    "settings.menu.logout": "Выход",
+
+    "settings.cache.cleaned": "Кеш очищен",
+
     // LocaleSettingsView
-    
-    "settings.locale.title": "Locale Settings",
-    "settings.locale.language": "Language",
+
+    "settings.locale.title": "Языковые настройки ",
+    "settings.locale.language": "Язык",
     "settings.locale.en": "English",
     "settings.locale.ru": "Русский",
-    
+
     // WalletsSettingsView
-    "settings.wallets.title": "Wallets settings",    
-    "settings.wallets.display": "Display settings",
-    "settings.wallets.display.all": "Display all wallets",
-    "settings.wallets.display.onlydevice": "Show wallets on the device only",
-    "settings.wallets.storepkinicloud": "Store private keys in iCloud",
-    "settings.wallets.display.hint": "You can choose one of the display’s options to see all wallets even some of them are not on your current device or see only the wallets located on your device. If you select to display all wallets, the wallets not located on your device will be displayed as grey. You will not be allowed to perform transactions and check status and balance of such a wallet.",
-    "settings.wallets.icloud.hint": "If  your device is lost or damaged you can restore wallets from iCloud to your new device. If turned off, please make sure you have secure backup of your private keys and passwords elswhere. They can not be restored or reset.<br><b>If lost, they are gone.</b>",
+    "settings.wallets.title": "Кошельки",
+    "settings.wallets.display": "Настройки отображения",
+    "settings.wallets.display.all": "Отображать все кошельки",
+    "settings.wallets.display.onlydevice": "Отображать кошельки расположенные на устройстве",
+    "settings.wallets.storepkinicloud": "Хранить закрытые ключи в iCloud",
+    "settings.wallets.display.hint": "Если вы выберете отображение всех кошельков, кошельки, которые отсутствуют на вашем устройстве, будут отображаться серым цветом. Вам будет не доступна возможность просмотра баланса и выполнения операций для кошельков, отсутствующих на устройстве.",
+    "settings.wallets.icloud.hint": "Если ваше устройство будет потеряно или повреждено, то при переходе на новое устройство вы сможте восстановить кошельки из iCloud. Если вы не хотите хранить закрытые ключи в iCloud, то обязательно храниете резервную копию ваших закрытых ключей в другом месте.<br><b>При утере восстановить их будет невозможно.</b>",
 
     // PasswordSettingsView
 
-    "settings.password.title": "Account password",
-    "settings.password.change": "Change password",
-    "settings.password.change.button": "Change password",
-    "settings.password.oldpassword": "Current password",
-    "settings.password.newpassword": "Password",
-    "settings.password.repeatnewpassword": "Repeat password",
-    "settings.password.tupeoldpassword": "Type your current password",
-    "settings.password.tupenewpassword": "Type new password",
-    "settings.password.tupenewpasswordagain": "Type new password again",
-    "settings.password.changed": "Password changed",
-    "settings.password.error.emptyoldpassword": "Enter your current password",
-    "settings.password.error.emptynewpassword": "Enter your new password",
-    "settings.password.error.wrongpassword": "Wrong current password",
-    "settings.password.hint": "Please keep the key password safely. If you lose it, you will not be able to manage your money. Make sure  you will not forget it.",
+    "settings.password.title": "Пароль",
+    "settings.password.change": "Изменить пароль",
+    "settings.password.change.button": "Изменить пароль",
+    "settings.password.changed": "Пароль изменен",
+    "settings.password.oldpassword": "Текущий пароль",
+    "settings.password.newpassword": "Пароль",
+    "settings.password.repeatnewpassword": "Повторите  пароль",
+    "settings.password.tupeoldpassword": "Введите текущий пароль",
+    "settings.password.tupenewpassword": "Введите новый пароль",
+    "settings.password.tupenewpasswordagain": "Введите новый пароль еще раз",
+    "settings.password.error.emptyoldpassword": "Введите текущий пароль",
+    "settings.password.error.emptynewpassword": "Введите новый пароль",
+    "settings.password.error.wrongpassword": "Неверный текущий пароль",
+    "settings.password.hint": "Надежно храните свой пароль. Если вы его потеряете, то вы не сможете управлять своими средствами.",
 
     // PasscodeSettingsView
-    
-    "settings.passcode.title": "Passcode Settings",
-    "settings.passcode.change.button": "Change passcode",
-    "settings.passcode.turnon": "Turn on passcode",
-    "settings.passcode.turnoff": "Turn off passcode",
-    "settings.passcode.error.donotmatch": "Passcodes do not match",
-    "settings.passcode.options": "Options",
-    "settings.passcode.biometricsID": "Face ID / Touch ID",
-     "settings.passcode.hint": "Passcode is needed if you want to protect your account from unauthorized access by others.",
+
+    "settings.passcode.title": "Код-пароль",
+    "settings.passcode.change.button": "Изменить код-пароль",
+    "settings.passcode.turnon": "Включить код-пароль",
+    "settings.passcode.turnoff": "Отключить код-пароль",
+    "settings.passcode.error.donotmatch": "Код-пароли не совпадают",
+    "settings.passcode.options": "Дополнительные настройки",
+    "settings.passcode.biometricsID": "Разблокировка по Face ID или Touch ID",
+    "settings.passcode.hint": "Используйте код-пароль, чтобы свести к минимуму риск несанкционированного доступа к вашим данным",
 
     // QrCodeAlertView
 
-    "qrcodealertview.title.address": "Wallet Address QR Code",
-    "qrcodealertview.title.pk": "Private Key QR Code",
-    "qrcodealertview.comment.address": "Use this QR code to scan, when someone needs to send you coins.",
-    "qrcodealertview.comment.pk": "This QR code has your private key. It gives access to your funds without password and can be used to restore lost wallet. Keep it secure!",
-    "qrcodealertview.comment.pknotexists": "Private key for this wallet was not found on the device.",
-    "qrcodealertview.actions.saveqr": "Save QR Code Image",
-    "qrcodealertview.actions.showpkqr": "Show PK QR Code",
-    "qrcodealertview.hint": "Swipe cards to switch between Wallet<br>and Private Key QR codes",
+    "qrcodealertview.title.address": "QR-код с адресом кошелька",
+    "qrcodealertview.title.pk": "QR-код с закрытым ключем",
+    "qrcodealertview.comment.address": "Поделитесь этим QR-кодом с отправителем",
+    "qrcodealertview.comment.pk": "Этот QR-код содержит выш закрытый ключ. Он обеспечивает доступ к вашим средствам без пароля и может быть использован для восстановления потерянного кошелька. Держите его в безопасности!",
+    "qrcodealertview.comment.pknotexists": "На устройстве не найден закрытый ключ соответствующий этому кошельку.",
+    "qrcodealertview.actions.saveqr": "Сохранить изображение QR-кода",
+    "qrcodealertview.actions.showpkqr": "Показать QR-код для закрытого ключа",
+    "qrcodealertview.hint": "Выполните свайп слева направо или наоборот для переключения<br> между публичным адресом и закрытым ключём",
 
     // WalletCreatedAlertView
 
-    "walletcreatedalertview.notice": "Password and key file are <i>non-recoverable</i> if lost. Keep them save and make backups!",
+    "walletcreatedalertview.notice": "Пароль и ключевой файл <i>не подлежат восстановлению</i> в случае потери. Держите их в безопасности и сделайте резервные копии!",
 
     // WalletCreateAlertView
 
-    "walletcreatealertview.error.unknowncode": "Unknown QRcode",
-    "walletcreatealertview.title.address": "Address",
-    "walletcreatealertview.title.key.public": "Public Key",
-    "walletcreatealertview.title.key.enc": "Key file is encrypted",
-    "walletcreatealertview.title.key.open": "Key file is open",
-    "walletcreatealertview.address.unknown": "Address unknown",
+    "walletcreatealertview.error.unknowncode": "Неизвестный QR-код",
+    "walletcreatealertview.title.address": "Адрес",
+    "walletcreatealertview.title.key.public": "Открытый ключ",
+    "walletcreatealertview.title.key.enc": "Ключевой файл зашифрован",
+    "walletcreatealertview.title.key.open": "Ключевой файл открыт",
+    "walletcreatealertview.address.unknown": "Неизвестный адрес",
 
     // WalletImportEncryptedAlertView
 
-    "walletimportview.error.unknowncode": "Unknown QRcode",
-    "walletimportview.title.address": "Address",
-    "walletimportview.title.key.public": "Public Key",
-    "walletimportview.title.key.enc": "Key file is encrypted",
-    "walletimportview.title.key.open": "Key file is open",
-    "walletimportview.address.unknown": "Address unknown",
+    "walletimportview.error.unknowncode": "Неизвестный QR-код",
+    "walletimportview.title.address": "Адрес",
+    "walletimportview.title.key.public": "Открытый ключ",
+    "walletimportview.title.key.enc": "Ключевой файл зашифрован",
+    "walletimportview.title.key.open": "Ключевой файл открыт",
+    "walletimportview.address.unknown": "Неизвестный адрес",
 
-   // MetaPayView
+    // MetaPayView
 
-    "metapaview.amount": "Amount:",
-    "metapaview.wallet": "Wallet:",
-    "metapaview.toaddress": "To Address:",
-    "metapaview.data": "Data:",
-    "metapaview.password": "Password:",
-    "metapaview.maxfee": "Max fee:",
-    "metapaview.button.signandsend": "Sign & Send:",
-    "metapaview.button.continue": "Continue",
-    
+    "metapaview.amount": "Количество:",
+    "metapaview.placeholder.amount": "Количество",
+    "metapaview.wallet": "Кошелек:",
+    "metapaview.toaddress": "Получатель:",
+    "metapaview.placeholder.address": "Получатель",
+    "metapaview.data": "Информация:",
+    "metapaview.placeholder.data": "Информация",
+    "metapaview.password": "Пароль:",
+    "metapaview.placeholder.password": "Пароль от кошелька",
+    "metapaview.maxfee": "Максимальная комиссия:",
+    "metapaview.button.signandsend": "Подписать и отправить",
+    "metapaview.button.continue": "Далее",
+    "metapaview.transfer": "Перевод",
+    "metapaview.allavailable": "Все",
+
+
     // MetaPaySelectWalletAlertView
 
-    "selectwalletalertview.title": "Select wallet",
-    
+    "selectwalletalertview.title": "Выбор кошелька",
+
     // MetaPayAlertView
 
-    "metapayalertview.error.nowallets": "No suitable wallets found",
-    "metapayalertview.error.notenoghfunds": "Not enough funds. Select different wallet or add funds",
+    "metapayalertview.error.nowallets": "Подходящих кошельков не найдено",
+    "metapayalertview.error.notenoghfunds": "Недостаточно средств. Выберите другой кошелек или пополнить текуший",
 
     // iCloudSyncAlertView
 
-    "icloudsyncalertview.title": "iCloud synchronization",
-    "icloudsyncalertview.warning": "WARNING!",
-    "icloudsyncalertview.text1": "Wallets private keys will be stored in iCloud by default. You can change this in settings later.",
-    "icloudsyncalertview.text2": "Storing passwords and private keys is your responsibility. They can not be restored. <b>If lost, they are gone.</b>",
+    "icloudsyncalertview.title": "Синхронизация iCloud",
+    "icloudsyncalertview.warning": "Предупреждение!",
+    "icloudsyncalertview.text1": "По умолчанию закрытые ключи будут храниться в iCloud. Вы можете изменить параметры синхронизации в настройках.",
+    "icloudsyncalertview.text2": "Надежно храните ваши пароли и закрытые ключи. При утере восстановить их будет невозможно.",
 
     // OfferPasscodeAlertView
 
-    "offerpasscodealertview.title": "Make it easier!",
-    "offerpasscodealertview.text": "You can set up a 4-digit passcode and simplify your login to the application.",
-    "offerpasscodealertview.actions.yes": "Set up a passcode",
-    "offerpasscodealertview.actions.no": "No, thanks, just let me in",
+    "offerpasscodealertview.title": "Установите код-доступа",
+    "offerpasscodealertview.text": "Установите 4-значный код-доступа, чтобы упростить вход в приложение.",
+    "offerpasscodealertview.actions.yes": "Установить код-пароль",
+    "offerpasscodealertview.actions.no": "Пропустить",
 
     // NoPkAlertView
 
-    "nopkalertview.text1": "There is no private key<br>available on your device",
-    "nopkalertview.text2": "Unfortunately, you can’t make a transfer before you place this wallet’s private key to the memory storage of your phone/tablet. You can view the history of transactions, information about the wallet and cryptocurrency balance.",
-    "nopkalertview.actions.import": "Import key from QR code",
-    "nopkalertview.actions.cancel": "cancel and return",
+    "nopkalertview.text1": "Отсутствует закрытый ключ",
+    "nopkalertview.text2": "Перевод средств без закрытого ключа невозможен. Импортируйте закрытый ключ, чтобы получить возможность переводить средства. Без закрытого ключа доступен просмотр информации о балансе кошелька и просмотр истории транзакций.",
+    "nopkalertview.actions.import": "Импорт ключа из QR-кода",
+    "nopkalertview.actions.cancel": "Назад",
 
     // importpk
 
-    "importpk.wrongcurrency": "Scaned QR does not contain $currency wallet",
+    "importpk.wrongcurrency": "QR-код не содержит $currency кошелек",
 
     // GEO
 
-    "node.geo.us": "America",
-    "node.geo.eu": "Europe",
-    "node.geo.cn": "Asia",
-    "node.geo.undefined": "undefined",
+    "node.geo.us": "Америка",
+    "node.geo.eu": "Европа",
+    "node.geo.cn": "Азия",
+    "node.geo.undefined": "не определено",
 
     // NodeView
-    "nodeview.error.notenoghfunds": "Not enough funds for delegation",
-    "nodeview.filter.recommended": "Recommended",
-    "nodeview.filter.allnodes": "All nodes",
-    "nodeview.sort.balanceup": "Balance up",
-    "nodeview.title": "Nodes",
-    "nodeview.trust": "Node trust",
+    "nodeview.error.notenoghfunds": "Недостаточно средств для делегирования",
+    "nodeview.filter.recommended": "Рекомендуемые",
+    "nodeview.filter.allnodes": "Все ноды",
+    "nodeview.sort.balanceup": "Баланс",
+    "nodeview.title": "Ноды",
+    "nodeview.trust": "Уровень доверия",
     "nodeview.roi": "ROI",
-    "nodeview.geo": "Geo",
+    "nodeview.geo": "Местоположение",
     "nodeview.avgrps": "Avg RPS",
-    "nodeview.lastcheck": "Last check",
-    "nodeview.search.node": "Search node",
-    "nodeview.button.delegate": "Delegate",
-    "nodeview.button.undelegateall": "Undelegate all",
-    "nodeview.button.moreinfo": "More Info",
-    "nodeview.button.undelegate": "Undelegate",
-    "nodeview.button.showallnodes": "Show All Nodes",
+    "nodeview.lastcheck": "Последняя проверка",
+    "nodeview.search.node": "Поиск ноды",
+    "nodeview.button.delegate": "Делегировать",
+    "nodeview.button.undelegateall": "Разделегировать все",
+    "nodeview.button.moreinfo": "Больше информации",
+    "nodeview.button.undelegate": "Разделегировать",
+    "nodeview.button.showallnodes": "Показать все ноды",
     
-   // SupportView
-    "supportview.title": "#MetaWallet Support",
-    "supportview.software.info": "Software information",
-    "supportview.software.appversion": "App version:",
-    "supportview.software.uiversion": "UI version:",
-    "supportview.sendlogs": "send logs to support team",
-    "supportview.hint": "Your request has been successfully sent to support team.<br>Requests are processed within 24 hours on the average.<br><br>If you have any questions, please don’t hesitate to contact us: ",
-    "supportview.disclaimer.title": "Public information",
-    "supportview.disclaimer.subtitle": "This is the first public release of #MetaGate.",
-    "supportview.disclaimer.text": "We know it’s not perfect, but we focus on making it the best browser for decentralized applications built on #MetaHash platform and other chains and we want to make it the best cryptocurrency wallet for #MetaHash Coins, Tokens and other currencies.",
-    "supportview.linkmetagete.title": "Visit #MetaGate ",
-    "supportview.linkmetagete.text": "download page",
-    "supportview.linkgithub.title": "All versions and source code ",
-    "supportview.linkgithub.text": "on GitHub",
-    "supportview.linkmetahash.title": "#MetaGate is a project by ",
+    // SupportView
+    "supportview.title": "#MetaWallet поддержка",
+    "supportview.software.info": "Информация о приложении",
+    "supportview.software.appversion": "Версия приложения:",
+    "supportview.software.uiversion": "Версия интерфейса:",
+    "supportview.sendlogs": "Отправить логи в службу поддержки",
+    "supportview.hint": "Ваш запрос был успешно отправлен в службу поддержки.<br>Запросы обрабатываются в среднем в течение 24 часов.<br><br>Напишите нам, если у Вас остались вопросы. Мы с удовольствием на них ответим. ",
+    "supportview.disclaimer.title": "Публичная информация",
+    "supportview.disclaimer.subtitle": "Это первый публичный релиз #MetaGate.",
+    "supportview.disclaimer.text": "Мы понимаем, что данное приложение не идеально и мы продалжаем работать над его улучшением, чтобы сделать его лучшим браузером для децентрализованных приложений, разработанных на платформе #MetaHash, и мы планируем сделать его лучшим криптовалютным кошельком для монет #MetaHash, токенов и других валют.",
+    "supportview.linkmetagete.title": "Посетите #MetaGate ",
+    "supportview.linkmetagete.text": "Страница загрузки",
+    "supportview.linkgithub.title": "Все версии и исходный код ",
+    "supportview.linkgithub.text": "на GitHub",
+    "supportview.linkmetahash.title": "#MetaGate это проект ",
     "supportview.linkmetahash.text": "metahash.org",
-    "supportview.releasenote.title": "Please keep in mind this is the first release ",
-    "supportview.releasenote.text": "Bugs happen, but early launches make Apps better. So please understand it’s the first release and be careful with your funds. #MetaGate has a long way ahead to pass public security bounties and public tests.",
-    "supportview.releasenote.title2": "We need your Help!",
-    "supportview.releasenote.text2.link": "If you have ideas on how to make #MetaGate better please e-mail at: ",
-    "supportview.releasenote.text2.link2": "If something doesn’t work please e-mail to: ",
-    "supportview.releasenote.title3": "Idea behind #MetaGate",
-    "supportview.releasenote.text3": "It’s not a Wallet, it’s a browser, that is able to download user interface or directly access decentralized Apps via mh:// (#MetaHash protocol). The Wallet itself will be a decentralized open source application. At the current stage we allow UI to be written in HTML/JS, but later it will be possible on more complex UIs to require explicit user’s “yes” to be installed<br>#MH protocol means that an App always changes IP addresses where it is hosted and you are working with a random decentralized Node. Data that needs verification is downloaded from multiple sources or #MetaHash DataChain and data that needs synchronisation is uploaded encrypted or public in DataChain.<br><br>",
-    "supportview.releasenote.big": " It’s not perfect now, but we believe that this approach will allow decentrilized Applications to be born that were impossible to make before #MetaHash project started.",
-    "supportview.discussion.title": "Join discussion",
-    "supportview.discussion.linkwebsite": "Our website: ",
+    "supportview.releasenote.title": "Обратите внимание, что это один из первых релизов приложения",
+    "supportview.releasenote.text": "Это один из первых релизов приложения и в нем могут возникать ошибки. Приложение находится на стадии тестирования и ему еще далеко до перехода в промышленную эксплуатацию, поэтому будьте осторожны при его использовании.",
+    "supportview.releasenote.title2": "Нам нужна Ваша помощь!",
+    "supportview.releasenote.text2.link": "Если у вас есть идеи о том, как сделать приложение #MetaGate лучше, то пишите на E-mail:",
+    "supportview.releasenote.text2.link2": "Если что-то не работает, пожалуйста, напишите:",
+    "supportview.releasenote.title3": "Идея #MetaGate",
+    "supportview.releasenote.text3": "MetaGate это не кошелек, это каталог децентрализованных приложений и браузер, который может загружать пользовательский интерфейс приложений или напрямую обращаться к децентрализованным приложениям через mh: // (протокол #MetaHash), в том числе с кошельком, являющимся децентрализованным приложением с открытым исходным кодом. На текущем момент в MetaGate обеспечена возможность работы приложений, пользовательский интерфейс которых разработан с использованием HTML и JS.<br>",
+     "supportview.releasenote.big": " #MetaHash находится в стадии разработки и нам потребуется проделать еще много работы, чтобы сделать из него идеальную платформу для создания  работающих в в режиме реального времени децентрализованных приложений. Мы считаем, что #MetaHash позволит создавать децентрализованные приложения, разработка которых была не возможна до его запуска.",
+    "supportview.discussion.title": "Присоединяйтесь",
+    
+    
+    "supportview.discussion.linkwebsite": "Наш веб-сайт: ",
     "supportview.discussion.linktelegram": "Telegram: ",
     "supportview.discussion.linktwitter": "Twitter: ",
-    "supportview.share.title": "Share this article: ",
-    "supportview.faq.aboutmetahash": "What is #MetaHash?",
-    "supportview.faq.terms": "Terms of Use",
-    "supportview.faq.privacypolicy": "Privacy Policy",
-    "supportview.faq.antispampolicy": "Anti-Spam Policy",
-    "supportview.faq.riskda": "Risk Disclosure Agreement",
-    "supportview.contact.title": "Contact Us",
-    "supportview.contact.feedback": "Feedback at ",
-    "supportview.contact.support": "Support at ",
-    "supportview.contact.pressenquiries": "Press enquiries ",
-    "supportview.contact.pressoffice": "Press office ",
+    "supportview.share.title": "Поделиться ссылкой: ",
+    "supportview.faq.aboutmetahash": "Что такое #MetaHash?",
+    "supportview.faq.terms": "Условия использования",
+    "supportview.faq.privacypolicy": "Политика конфиденциальности",
+    "supportview.faq.antispampolicy": "Анти-Спам политика",
+    "supportview.faq.riskda": "Соглашение о раскрытии рисков",
+    
+    "supportview.contact.title": "Контакты",
+    "supportview.contact.feedback": "Обратная связь ",
+    "supportview.contact.support": "Служба поддержки  ",
+    "supportview.contact.pressenquiries": "Электронный адрес для пресс-запросов ",
+    "supportview.contact.pressoffice": "Телефон пресс-службы ",
+
 };
 
 /**
  * @param {number} time - UNIX timestamp (seconds)
  * @param {boolean} date - need date?
- * @param {boolean} hideTime - need time?
  * @return {string}
  */
-window.timeToDateTime = function (time, date, hideTime) {
+window.timeToDateTime = function (time, date) {
     date = typeof date !== "undefined" ? date : false;
-    hideTime = typeof hideTime !== "undefined" ? hideTime : false;
     let d = new Date();
     d.setTime(time * 1000);
-
-    let dateStr = [(d.getMonth() + 1), d.getDate(), d.getFullYear()].join("/");
-
-    if (hideTime) {
-        return dateStr;
-    }
 
     /**
      * @param {number} n
@@ -456,12 +466,8 @@ window.timeToDateTime = function (time, date, hideTime) {
         return n <= 9 ? "0" + n : "" + n;
     }
 
-    let h = d.getHours();
-    let hour = h === 0 ? 12 : h % 12;
-    let suffix = h < 12 ? "AM" : "PM";
-    let timeStr = [hour, addZero(d.getMinutes()), addZero(d.getSeconds())].join(":") + " " + suffix;
+    let dateStr = [addZero(d.getDate()), addZero(d.getMonth() + 1), d.getFullYear()].join(".");
+    let timeStr = [addZero(d.getHours()), addZero(d.getMinutes()), addZero(d.getSeconds())].join(":");
 
     return (date ? dateStr + " " : "") + timeStr;
 };
-
-window.pluralize = (count, noun, suffix = "s") => `${count} ${noun}${count !== 1 ? suffix : ""}`;
